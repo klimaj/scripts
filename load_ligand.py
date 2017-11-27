@@ -1,5 +1,4 @@
 import pyrosetta
-import os
 
 pyrosetta.init('-ignore_waters 0 -extra_res_fa NAD.fa.params')
 ligand_params = pyrosetta.Vector1(['NAD.fa.params'])
